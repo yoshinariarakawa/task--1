@@ -61,8 +61,13 @@ footer {
   background-color: #AAAAAA;
 }
 /* タブレット横置きサイズ（1024px）以下の際に適用される設定 */
-@media screen and (max-width:767px) {
+@media screen and (max-width:768px) {
    main {
     width: 100%;
     display: block;
   }
+  .step-box {
+    width: 90%;
+    margin: 20px;
+  }
+}
